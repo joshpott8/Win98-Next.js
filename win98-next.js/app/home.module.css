@@ -1,19 +1,83 @@
-.computer-container {
-    background-color: #dbd3bf;
+.room {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    background-color: #ababab;
+}
+
+
+.computer-container {
+    background-color: #dbd3bf;
+    height: 80%;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
     justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-ridge {
+    width: 155%;
+    min-width: 899px;
+    height: 70%;
+    -webkit-box-shadow: 0px 0px 70px -20px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 70px -20px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 70px -20px rgba(0, 0, 0, 0.75);
+     background-color: #dbd3bf;
+     margin: auto;
+     position: absolute;
+     top: 0px;
+     left: 50%;
+     transform: translate3d(-50%, -90%, 0px);
 }
 
 .inputs-panel {
-    border: 2px solid #837c6b;
-    height: 400px;
+    /* border: 2px solid #837c6b; */
+    /* height: 400px; */
     width: 100%;
-    max-width: 700px;
+    max-width: 525px;
     display: flex;
     flex-direction: column;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .inputs-panel::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.1), transparent),
+      radial-gradient(circle, rgba(0, 0, 0, 0.1) 20%, transparent 20%),
+      linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent),
+      linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent),
+      radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 5%, transparent 15%),
+      radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 15%, transparent 30%);
+    background-blend-mode: overlay, normal, overlay, overlay, normal, normal;
+    transform: rotate(-45deg);
+    opacity: 0.6;
+  } */
+
+.slot {
+    border: 2px solid #837c6b;
+}
+
+.slim-slot {
+    border: 1px solid #837c6b;
 }
 
 .cd-drive {
@@ -67,3 +131,97 @@
         box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
 }
 
+.floppy-drive {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.5rem;
+}
+
+.floppy-slot-fullw {
+    height: 15px;
+    position:relative;
+    -webkit-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+}
+
+.floppy-slot-inner {
+    -webkit-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+    border-bottom: unset;
+    background-color: #dbd3bf;
+    position: absolute;
+}
+
+.floppy-slot-inner1 {
+    height: 7px;
+    top: -7px;
+    width: 80%;
+}
+
+.floppy-slot-inner2 {
+    height: 7px;
+    top: -7px;
+    width: 60%;
+}
+
+.floppy-slot-inner-bottom {
+    width: 48%;
+    height: 30px;
+    bottom: -30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #837c6b;
+    overflow: hidden;
+}
+
+.floppy-bottom-inner {
+    -webkit-box-shadow: 0px -30px 35px 35px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px -30px 35px 35px rgba(0,0,0,0.75);
+        box-shadow: 0px -30px 35px 35px rgba(0,0,0,0.75);
+    width: 100%;
+    height: 1px;
+}
+
+.floppy-drive .cd-open-btn {
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    height: 20px;
+}
+
+.floppy-ridge {
+    width: 110%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 100%;
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+}
+
+.power-btn-container {
+    width: 25%;
+    height: 40%;
+    -webkit-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    border-radius: 100%;
+    position: relative;
+    margin:auto;
+}
+
+.power-btn {
+    height: 60px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: silver;
+    margin: auto;
+    top: 50%;
+    position: relative;
+    border: 1px solid gray;
+}

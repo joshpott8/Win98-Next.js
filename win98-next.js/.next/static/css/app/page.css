@@ -1,0 +1,216 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./app/home.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.home_room__5IKqD {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    background-color: #ababab;
+}
+
+
+.home_computer-container__wlO1p {
+    background-color: #dbd3bf;
+    height: 80%;
+    max-height: 1000px;
+    width: 100%;
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.home_top-ridge__YLvhZ {
+    width: 155%;
+    min-width: 899px;
+    height: 70%;
+    box-shadow: 0px 0px 70px -20px rgba(0, 0, 0, 0.75);
+     background-color: #dbd3bf;
+     margin: auto;
+     position: absolute;
+     top: 0px;
+     left: 50%;
+     transform: translate3d(-50%, -90%, 0px);
+}
+
+.home_inputs-panel__hMt_W {
+    /* border: 2px solid #837c6b; */
+    /* height: 400px; */
+    width: 100%;
+    max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .inputs-panel::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.1), transparent),
+      radial-gradient(circle, rgba(0, 0, 0, 0.1) 20%, transparent 20%),
+      linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent),
+      linear-gradient(135deg, rgba(255, 255, 255, 0.1), transparent),
+      radial-gradient(ellipse at center, rgba(255, 255, 255, 0.1) 5%, transparent 15%),
+      radial-gradient(ellipse at center, rgba(0, 0, 0, 0.1) 15%, transparent 30%);
+    background-blend-mode: overlay, normal, overlay, overlay, normal, normal;
+    transform: rotate(-45deg);
+    opacity: 0.6;
+  } */
+
+.home_slot__E36oZ {
+    border: 2px solid #837c6b;
+}
+
+.home_slim-slot__5fM_L {
+    border: 1px solid #837c6b;
+}
+
+.home_cd-drive__oBI_M {
+    width: 100%;
+}
+
+.home_cd-tray__Aedm1 {
+    border: 2px solid #837c6b;
+    width:100%;
+    height: 70px;
+    position: relative;
+    background-color: #e1dac8;
+    box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+}
+
+.home_compact-disc-logo__P40Tb {
+    background-image: url(/_next/static/media/compact_disc.d3025bab.png);
+    height: 100%;
+    width: 50px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display: inline-block;
+}
+
+.home_cd-btns__miK8a {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home_aux__qGTPV {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #c9c9c9;
+}
+
+.home_cd-open-btn__Zzaam {
+    height: 15px;
+    background-color: #e1dac8;
+    width: 50px;
+    margin-left: auto;
+    border: 2px solid #837c6b;
+    box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+}
+
+.home_floppy-drive__1ocY8 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.5rem;
+}
+
+.home_floppy-slot-fullw__GdP_m {
+    height: 15px;
+    position:relative;
+    box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+}
+
+.home_floppy-slot-inner__gAv_8 {
+    box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+    border-bottom: unset;
+    background-color: #dbd3bf;
+    position: absolute;
+}
+
+.home_floppy-slot-inner1__BY514 {
+    height: 7px;
+    top: -7px;
+    width: 80%;
+}
+
+.home_floppy-slot-inner2__PTkxS {
+    height: 7px;
+    top: -7px;
+    width: 60%;
+}
+
+.home_floppy-slot-inner-bottom__blcaz {
+    width: 48%;
+    height: 30px;
+    bottom: -30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #837c6b;
+    overflow: hidden;
+}
+
+.home_floppy-bottom-inner__E0SFk {
+    box-shadow: 0px -30px 35px 35px rgba(0,0,0,0.75);
+    width: 100%;
+    height: 1px;
+}
+
+.home_floppy-drive__1ocY8 .home_cd-open-btn__Zzaam {
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    height: 20px;
+}
+
+.home_floppy-ridge__Ammi4 {
+    width: 110%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 100%;
+    position: absolute;
+    top: -32%;
+    left: 50%;
+    transform: translate3d(-50%, 0px, 0px);
+}
+
+.home_power-btn-container__C5ebe {
+    width: 25%;
+    height: 40%;
+    box-shadow: inset 0px 0px 25px -20px rgba(0,0,0,0.75);
+    border-radius: 100%;
+    position: relative;
+    margin:auto;
+}
+
+.home_power-btn__Gn4P6 {
+    height: 60px;
+    width: 35px;
+    border-radius: 100%;
+    background-color: silver;
+    margin: auto;
+    top: 50%;
+    position: relative;
+    border: 1px solid gray;
+}
