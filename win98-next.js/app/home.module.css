@@ -1,0 +1,69 @@
+.computer-container {
+    background-color: #dbd3bf;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-panel {
+    border: 2px solid #837c6b;
+    height: 400px;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cd-drive {
+    width: 100%;
+}
+
+.cd-tray {
+    border: 2px solid #837c6b;
+    width:100%;
+    height: 70px;
+    position: relative;
+    background-color: #e1dac8;
+    -webkit-box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+}
+
+.compact-disc-logo {
+    background-image: url("../public/images/compact_disc.png");
+    height: 100%;
+    width: 50px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display: inline-block;
+}
+
+.cd-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aux {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #c9c9c9;
+}
+
+.cd-open-btn {
+    height: 15px;
+    background-color: #e1dac8;
+    width: 50px;
+    margin-left: auto;
+    border: 2px solid #837c6b;
+    -webkit-box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 80px -30px rgba(0, 0, 0, 0.75);
+}
+
