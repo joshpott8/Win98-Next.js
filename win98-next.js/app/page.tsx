@@ -1,7 +1,5 @@
 "use client"
-import { useEffect } from "react";
 import styles from "./home.module.css";
-import ColoredImage from "@/components/colouredimage";
 
 export default function Home() {
   const computerBeepPath = "/public/audio/sounds/computer_beep.wav";
